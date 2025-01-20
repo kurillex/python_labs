@@ -7,7 +7,7 @@
     <style>
         body {
             text-align: center;
-            font-family: Impact, sans-serif;
+            font-family: Arial, sans-serif;
             color: #704022;
             background-color: #ffefd5;
             display: flex;
@@ -88,8 +88,8 @@
     <div class="games-section">
         <h3>Список пройденных игр</h3>
         <ul class="games-list">
-            {% for g in games %}
-            <div>{{ g.game }} ({{ g.year }})</div>
+            {% for game in games %}
+            <div>{{ game.game }} (<strong>{{ game.year }}</strong>)</div>
             {% endfor %}
         </ul>
 
