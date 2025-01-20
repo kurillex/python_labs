@@ -1,0 +1,16 @@
+body {
+      text-align: center;
+      font-family: Impact, sans-serif;
+      color: #681c1c;
+      background-color: #ffe7c2;
+    }
+
+.gradient-border-input {
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(to right, #ff7e5f, #feb47b) border-box;
+    font-size: 16px;
+    width: 100%;
+}
